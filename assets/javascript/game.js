@@ -52,7 +52,7 @@
             if (playerGuess === 0) {
             playerLoss += 1;
             WOWIE()
-            alert("You are out of guess! You lost! Click OK to restart.");
+            alert("You are out of guesses! You lost! Click OK to restart.");
             randomLetter(letterArray);
             }
         }
